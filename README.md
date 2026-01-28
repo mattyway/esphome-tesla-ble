@@ -105,7 +105,7 @@ substitutions:
   tesla_vin: !secret tesla_vin
 
 packages:
-  remote_package_shorthand: github://yoziru/esphome-tesla-ble/tesla-ble-m5stack-nanoc6.dashboard.yml@main
+  remote_package_shorthand: github://mattyway/esphome-tesla-ble/tesla-ble-m5stack-nanoc6.dashboard.yml@main
 ```
 
 Be sure to use the correct `.dashboard.yml` file for your board. Also make sure you have the secrets defined otherwise it will not work and use defaults from this repository.
